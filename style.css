@@ -865,6 +865,7 @@ input[type=range].styled-slider:active::-ms-track {
     position: absolute;
     flex-direction: column;
     justify-content: start;
+    overflow-y: scroll;
     padding: 60px 40px;
     top: 107px;
     right: 0;

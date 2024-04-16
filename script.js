@@ -41,8 +41,8 @@ navItems.forEach(item => {
   item.addEventListener('click', () => {
     nav.classList.toggle('nav__active');
     headerBtn.classList.toggle('header__btn-active');
-    document.body.classList.toggle('no-scroll');
-    document.body.classList.toggle('body-fix');
+    document.body.classList.remove('no-scroll');
+    document.body.classList.remove('body-fix');
   });
 })
 
