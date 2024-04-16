@@ -1084,3 +1084,10 @@ input[type=range].styled-slider:active::-ms-track {
   transform: translateX(0%);
 }
 
+.body-fix {
+  position: fixed;
+  overflow: hidden;
+  right: 0;
+  left: 0;
+}
+

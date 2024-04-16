@@ -34,6 +34,7 @@ headerBtn.addEventListener('click', () => {
   nav.classList.toggle('nav__active');
   headerBtn.classList.toggle('header__btn-active');
   document.body.classList.toggle('no-scroll');
+  document.body.classList.add('body-fix');
 })
 
 navItems.forEach(item => {
@@ -41,6 +42,7 @@ navItems.forEach(item => {
     nav.classList.toggle('nav__active');
     headerBtn.classList.toggle('header__btn-active');
     document.body.classList.toggle('no-scroll');
+    document.body.classList.add('body-fix');
   });
 })
 
