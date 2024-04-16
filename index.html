@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loremipsun.net</title>
+  <link href="style.css" rel="stylesheet">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="header">
+    <div class="container header__container">
+      <h2 class="header__logo">Loremipsum.<span>net</span></h2>
+      <nav class="header__nav nav">
+        <ul class="header__list">
+          <li class="header__item">
+            <a class="header__link link" href="#">Бизнес</a>
+          </li>
+          <li class="header__item">
+            <a class="header__link link" href="#">О нас</a>
+          </li>
+          <li class="header__item">
+            <a class="header__link link" href="#">Цены</a>
+          </li>
+          <li class="header__item">
+            <a class="header__link link" href="#order">Оформить заказ</a>
+          </li>
+        </ul>
+      </nav>
+
+      <button class="header__btn">
+        <span></span>
+      </button>
+  
+    </div>
+  </header>
+
+  <main>
+    <section class="promo">
+      <h1 class="visually-hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum quae in ducimus assumenda unde soluta?</h1>
+      <div class="container promo__container">
+        <h2 class="promo__title"><span>Lorem ipsum</span>
+          dolor sit<br> amet consectetur
+          <span>adipiscing</span>
+        </h2>
+
+        <p class="promo__subtiltle">At vero eos et accusamus et iusto odio dignissimos ducimus!</p>
+        <ul class="promo__list">
+          <li class="promo__item">
+            <p>Totam rem aperiam eaque ipsa</p>
+          </li>
+          <li class="promo__item">
+            <p>Sit voluptatem accusantium doloremque laudantium</p>
+          </li>
+          <li class="promo__item">
+            <p>Sed ut perspiciatis, unde omnis iste natus error</p>
+          </li>
+        </ul>
+
+        <div class="promo__btns">
+          <a href="#order" class="promo__btn btn__blue">заказать</a>
+          <a href="#" class="promo__btn btn__white">подробнее</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="order" id="order">
+      <div class="container order__container">
+        <h2 class="order__title">Оформление <span>Заказа</span></h2>
+        <p class="order__subtitle">Перед заполнением формы ознакомьтесь с нашей схемой работы!</p>
+
+        <div class="order__wrapper">
+          <div class="order__item">
+            <img class="order__img" src="./img/search.svg" alt="icon">
+            <p class="order__text">Lorem ipsum dolor sit amet</p>
+            <div class="order__bullet">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+          <div class="order__item">
+            <img class="order__img" src="./img/procent.svg" alt="icon">
+            <p class="order__text">Сonsecteturadipiscing elit</p>
+            <div class="order__bullet">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+          <div class="order__item">
+            <img class="order__img" src="./img/doc.svg" alt="icon">
+            <p class="order__text">Sed do eiusmod tempor</p>
+            <div class="order__bullet">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+          <div class="order__item">
+            <img class="order__img" src="./img/mail.svg" alt="icon">
+            <p class="order__text">Esse cillum dolore eu fugiat</p>
+            <div class="order__bullet">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+          <div class="order__item">
+            <img class="order__img" src="./img/maney.svg" alt="icon">
+            <p class="order__text">Excepteur sint occaecat cupidatat non proident</p>
+          </div>
+        </div>
+
+        <form action="#" class="order__form form">
+          <fieldset class="form__fieldset">
+            <div type="text" name="select" class="input__select form__input">
+              <p class="input__select-title">Выберите тип системы</p>
+              <img class="form__img" src="./img/form_arrow.svg" alt="icon">
+
+              <ul class="input__select-list">
+                <li class="input__select-item" data-value="Sed ut perspiciatis">Sed ut perspiciatis</li>
+                <li class="input__select-item" data-value="Nemo enim ipsam">Nemo enim ipsam</li>
+                <li class="input__select-item" data-value="Et harum quidem">Et harum quidem</li>
+                <li class="input__select-item" data-value="Temporibus autem">Temporibus autem</li>
+                <li class="input__select-item" data-value="Itaque earum rerum">Itaque earum rerum</li>
+                <li class="input__select-item" data-value="Sed ut perspiciatis">Sed ut perspiciatis</li>
+                <li class="input__select-item" data-value="Nemo enim ipsam">Nemo enim ipsam</li>
+              </ul>
+              <input type="text" name="select-category" value="" class="input__select-hidden">
+            </div>
+            <input class="form__input" type="text" name="mail" placeholder="Ваш e-mail">           
+            <input class="form__input" type="text" name="name" placeholder="Ваше имя">         
+          </fieldset>
+          <fieldset class="form__fieldset">
+            <div class="form__wrapper">
+              <div class="form__legend">Sed ut perspiciatis, unde omnis iste natus <span class="form__span">75 %</span></div>
+              <input class="form__range styled-slider" type="range" name="range" min="0" max="100" value="75">  
+            </div>
+            <input class="form__file" id="file-input" type="file" name="file">
+            <label class="form__btn-file" for="file-input">
+              <img class="form__img" src="./img/file.svg" alt="icon">
+              Прикрепить файл</label>
+          </fieldset>
+          <button class="form__btn btn__blue" type="submit">Отправить</button>
+        </form>
+      </div>
+    </section>
+
+    <section class="review">
+      <div class="container">
+        <h2 class="review__title">Отзывы о нас</h2>
+        <div class="slider-container">
+          <div class="slider">
+            <div class="slider__item">
+              <h3 class="slider__autor">Jhon Dou</h3>
+              <p class="slider__text">11111Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore voluptatum cupiditate voluptate natus vitae rerum consequuntur! Possimus, sapiente quasi esse nostrum dolore magnam fugit tempora?</p>
+            </div>
+            <div class="slider__item">
+              <h3 class="slider__autor">Lorem, ipsum.</h3>
+              <p class="slider__text">2222Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore voluptatum cupiditate voluptate natus vitae rerum consequuntur! Possimus, sapiente quasi esse nostrum dolore magnam fugit tempora?</p>
+            </div>
+            <div class="slider__item">
+              <h3 class="slider__autor">Sit amet</h3>
+              <p class="slider__text">33333Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore voluptatum cupiditate voluptate natus vitae rerum consequuntur! Possimus, sapiente quasi esse nostrum dolore magnam fugit tempora?</p>
+            </div>
+            <div class="slider__item">
+              <h3 class="slider__autor">Jhon Dou</h3>
+              <p class="slider__text">444444Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore voluptatum cupiditate voluptate natus vitae rerum consequuntur! Possimus, sapiente quasi esse nostrum dolore magnam fugit tempora?</p>
+            </div>
+  
+          </div>
+          <button class="prev-button" aria-label="Посмотреть предыдущий слайд">&lt;</button>
+          <button class="next-button" aria-label="Посмотреть следующий слайд">&gt</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__container">
+      <span class="footer__copyright">
+        © 2018 «LoremIpsum.net» Все права защищены.
+      </span>
+
+      <ul class="footer__list">
+        <li class="footer__item footer__item-wallet">
+          <img class="footer__item-img" src="./img/qiwi.svg" alt="icon">
+          QIWI wallet</li>
+        <li class="footer__item footer__item-wallet">
+          <img class="footer__item-img" src="./img/yandex.svg" alt="icon">
+          Yandex Money</li>
+        <li class="footer__item footer__item-wallet">
+          <img class="footer__item-img" src="./img/webMoney.svg" alt="icon">
+          Web Money</li>
+      </ul>
+
+      <ul class="footer__list">
+        <li class="footer__item">
+          <img class="footer__item-img" src="./img/mail_ico.svg" alt="icon">
+          <a class="footer__link link" href="#">info@ipsum228.com</a>
+        </li>
+        <li class="footer__item">
+          <img class="footer__item-img" src="./img/vk.svg" alt="icon">
+          <a class="footer__link link" href="#">Мы вконтакте</a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>
