@@ -120,11 +120,12 @@ legend {
 
 html {
   scroll-behavior: smooth;
-}
-
-body {
   overflow-x: hidden;
 }
+
+/* body {
+  overflow-x: hidden;
+} */
 
 .visually-hidden {
   position: absolute;
@@ -157,9 +158,6 @@ html, body {
   margin: 0 auto;
 }
 
-
-
-
 /* btn */
 
 .btn__blue {
@@ -178,7 +176,6 @@ html, body {
 
 .header {
   position: sticky;
-  overflow-x: hidden;
   top: 0;
   padding: 33px 0 31px;
   background-color: #10101D;
@@ -691,8 +688,6 @@ input[type=range].styled-slider:active::-ms-track {
   transition: all .3s ease-in-out;
 }
 
-
-
 .prev-button {
   left: 10px;
 }
@@ -853,8 +848,9 @@ input[type=range].styled-slider:active::-ms-track {
 
 @media (max-width: 1024px) {
   .header__nav {
-    visibility: hidden;
     opacity: 0;
+    visibility: hidden;
+    width: 0;
   }
 
   .header__list {
@@ -875,7 +871,7 @@ input[type=range].styled-slider:active::-ms-track {
     z-index: 10;
     height: 100vh;
     background-color: #10101D;
-    transform: translateX(100%);
+    transform: translateY(100%);
     transition: all .3s ease-in-out;
   }
 }
@@ -1082,6 +1078,7 @@ input[type=range].styled-slider:active::-ms-track {
 
 
 .nav__active {
+  width: 100%;
   visibility: visible;
   opacity: 1;
   transform: translateX(0%);
