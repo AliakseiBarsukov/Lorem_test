@@ -871,7 +871,7 @@ input[type=range].styled-slider:active::-ms-track {
     z-index: 10;
     height: 100vh;
     background-color: #10101D;
-    transform: translateY(100%);
+    transform: translateY(-100%);
     transition: all .3s ease-in-out;
   }
 }
