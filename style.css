@@ -1066,6 +1066,10 @@ input[type=range].styled-slider:active::-ms-track {
     font-size: 28px;
   }
 
+  .review__title {
+    font-size: 28px;
+  }
+
   .form__input {
     max-width: 100%;
   }
